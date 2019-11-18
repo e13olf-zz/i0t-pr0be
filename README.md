@@ -15,7 +15,7 @@ Download the WebDriver for Firefox for your linux architecture
 
 Exract the binary and copy it to /usr/bin/  
 
-``git clone ``  
+``git clone https://github.com/e13olf/i0t-pr0be.git``  
 ``pip3 install -r requirements.txt``  
 
 # Usage Examples
