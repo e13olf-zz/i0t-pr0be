@@ -1,5 +1,6 @@
 # i0t-pr0be
-IoT device search and default credential scanner.
+IoT device search and default credential scanner.  
+More information at https://e13olf.me
 
 # Requirements
 1. Python 3
@@ -8,9 +9,10 @@ IoT device search and default credential scanner.
 4. Linux (Tested on Arch & Kali Linux)
 
 # Installation
-Download the WebDriver for Firefox  
-`` wget https://github.com/mozilla/geckodriver/releases/download/v0.26.0/geckodriver-v0.26.0-linux64.tar.gz``
-Exract the binary to /usr/bin
+Download the WebDriver for Firefox for your linux architecture  
+``https://github.com/mozilla/geckodriver/releases``  
+
+Exract the binary and copy it to /usr/bin/
 
 
 
