@@ -13,9 +13,10 @@ More information about development and the libraries used: https://e13olf.me
 Download the WebDriver for Firefox for your linux architecture  
 ``https://github.com/mozilla/geckodriver/releases``  
 
-Exract the binary and copy it to /usr/bin/
+Exract the binary and copy it to /usr/bin/  
 
-
+``git clone ``
+``pip3 install -r requirements.txt``  
 
 # Usage Examples
 List of all iot devices tested by the script.  
