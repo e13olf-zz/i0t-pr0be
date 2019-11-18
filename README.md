@@ -10,10 +10,10 @@ More information about development and the libraries used: https://e13olf.me
 4. Linux (Tested on Arch & Kali Linux)
 
 # Installation
-Download the WebDriver for Firefox for your linux architecture  
+Download WebDriver for Firefox for your linux architecture  
 ``https://github.com/mozilla/geckodriver/releases``  
 
-Exract the binary and copy it to /usr/bin/  
+Exract binary and copy it to /usr/bin/  
 
 ``git clone https://github.com/e13olf/i0t-pr0be.git``  
 ``pip3 install -r requirements.txt``  
@@ -22,9 +22,9 @@ Exract the binary and copy it to /usr/bin/
 List of all iot devices tested by the script.  
 ``./i0t-pr0be.py -l``
 
-Simple Search  
+Simple Shodan search  
 ``./i0t-pr0be.py -s -a <api-key>``
 
-Search & save to the third page of the results search.  
-``./i0t-pr0be.py -s -a <api-key> -n 3``
+Search & save results of the first three pages with default as 100 results per page.  
+``./i0t-pr0be.py -s -a <api-key> -p 3``
 
