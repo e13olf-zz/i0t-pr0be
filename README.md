@@ -1,6 +1,7 @@
 # i0t-pr0be
-IoT device search and default credential scanner.  
-More information at https://e13olf.me
+IoT device search and default credential scanner. 
+
+More information about development and the libraries used: https://e13olf.me
 
 # Requirements
 1. Python 3
