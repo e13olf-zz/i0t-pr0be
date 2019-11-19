@@ -1,0 +1,2 @@
+selenium==3.141.0
+shodan==1.19.0
