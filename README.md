@@ -5,16 +5,14 @@ More information about development and the libraries used: https://e13olf.me
 
 # Requirements
 1. Python 3
-2. Selenium Python
-3. Shodan library + api-key
+2. Selenium Python Libary
+3. Shodan Library
 4. Linux (Tested on Arch & Kali Linux)
 
 # Installation
-Download WebDriver for Firefox for your linux architecture  
-``https://github.com/mozilla/geckodriver/releases``  
+Download WebDriver from https://github.com/mozilla/geckodriver/releases depending on Linux architecture then extract and copy the file to the /usr/bin/ directory.  
 
-Exract binary and copy it to /usr/bin/  
-
+Git Clone:
 ``git clone https://github.com/e13olf/i0t-pr0be.git``  
 ``pip3 install -r requirements.txt``  
 
