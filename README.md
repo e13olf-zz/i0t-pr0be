@@ -15,9 +15,6 @@ Download WebDriver from https://github.com/mozilla/geckodriver/releases dependin
 ``pip3 install -r requirements.txt``  
 
 # Usage Examples
-List of all iot devices tested by the script.  
-``./i0t-pr0be.py -l``
-
 Simple Shodan search and save  
 ``./i0t-pr0be.py -s -a <api-key>``
 
