@@ -1,9 +1,7 @@
 # i0t-pr0be
 IoT device search via Shodan and default credential scanner. 
 
-More information about development and the libraries used: https://www.e13olf.me/2019/11/i0t-pr0be-iot-device-search-default.html
-
-![alt test](/screenshot.png)
+More information about development and the libraries used: https://www.e13olf.me/2019/11/i0t-pr0be-iot-device-search-default.html  
 
 # Requirements
 1. Python 3
