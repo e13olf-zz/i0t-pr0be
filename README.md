@@ -10,7 +10,7 @@ More information about development and the libraries used: https://e13olf.me
 4. Linux (Tested on Arch & Kali Linux)
 
 # Installation
-Download WebDriver from https://github.com/mozilla/geckodriver/releases depending on Linux architecture then extract and copy the file to the /usr/bin/ directory.  
+Download WebDriver from https://github.com/mozilla/geckodriver/releases depending on Linux architecture then extract the file to the /usr/bin/ directory.  
 ``git clone https://github.com/e13olf/i0t-pr0be.git``  
 ``pip3 install -r requirements.txt``  
 
