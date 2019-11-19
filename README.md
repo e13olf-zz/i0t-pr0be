@@ -11,8 +11,6 @@ More information about development and the libraries used: https://e13olf.me
 
 # Installation
 Download WebDriver from https://github.com/mozilla/geckodriver/releases depending on Linux architecture then extract and copy the file to the /usr/bin/ directory.  
-
-Git Clone:
 ``git clone https://github.com/e13olf/i0t-pr0be.git``  
 ``pip3 install -r requirements.txt``  
 
@@ -20,7 +18,7 @@ Git Clone:
 List of all iot devices tested by the script.  
 ``./i0t-pr0be.py -l``
 
-Simple Shodan search  
+Simple Shodan search and save  
 ``./i0t-pr0be.py -s -a <api-key>``
 
 Search & save results of the first three pages with default as 100 results per page.  
