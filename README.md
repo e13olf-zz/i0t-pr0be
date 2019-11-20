@@ -17,8 +17,8 @@ Download WebDriver from https://github.com/mozilla/geckodriver/releases dependin
 # Usage Examples
 ``usage: i0t-pr0be.py [-h] [-a APIKEY] [-p PAGES] [-l] [-s SHODANSEARCH] [-v] [-t TIMEOUT]``
 
-optional arguments:
-  -h, --help            show this help message and exit
+``optional arguments:``
+ `` -h, --help            show this help message and exit
   -a APIKEY, --apikey APIKEY
                         Your api key.
   -p PAGES, --pages PAGES
