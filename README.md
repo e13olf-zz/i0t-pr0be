@@ -33,5 +33,5 @@ optional arguments:
 Usage example: Search Shodan for "Hikvision Cameras" using your API key.
 ./i0t-pr0be.py -s "DNVRS-Webs" -a abcdefghijklmnopqrstuvwxyz123456  
 Search & save results of the first three pages with default as 100 results per page.  
-./i0t-pr0be.py -s -a <api-key> -p 3 ```
+./i0t-pr0be.py -s -a <api-key> -p 3 
 
