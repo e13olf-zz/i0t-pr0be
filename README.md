@@ -15,6 +15,24 @@ Download WebDriver from https://github.com/mozilla/geckodriver/releases dependin
 ``pip3 install -r requirements.txt``  
 
 # Usage Examples
+``usage: i0t-pr0be.py [-h] [-a APIKEY] [-p PAGES] [-l] [-s SHODANSEARCH] [-v] [-t TIMEOUT]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -a APIKEY, --apikey APIKEY
+                        Your api key.
+  -p PAGES, --pages PAGES
+                        Number of pages deep to go into Shodan page_results with 100 results per page; default is 1.
+  -l, --list            List the number of IoT device types tested by the script.
+  -s SHODANSEARCH, --shodansearch SHODANSEARCH
+                        Your Shodan search query. Use quotes when using filters.
+  -v, --verbose         Output verbose statements.
+  -t TIMEOUT, --timeout TIMEOUT
+                        Set timeout value for each request; default is 13
+
+Usage example: Search Shodan for "Hikvision Cameras" using your API key.
+./i0t-pr0be.py -s "DNVRS-Webs" -a abcdefghijklmnopqrstuvwxyz123456 ``
+
 Simple Shodan search and save  
 ``./i0t-pr0be.py -s -a <api-key>``
 
