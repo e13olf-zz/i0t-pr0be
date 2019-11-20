@@ -15,7 +15,7 @@ Download WebDriver from https://github.com/mozilla/geckodriver/releases dependin
 ``pip3 install -r requirements.txt``  
 
 # Usage Examples  
-usage: i0t-pr0be.py [-h] [-a APIKEY] [-p PAGES] [-l] [-s SHODANSEARCH] [-v] [-t TIMEOUT]
+```usage: i0t-pr0be.py [-h] [-a APIKEY] [-p PAGES] [-l] [-s SHODANSEARCH] [-v] [-t TIMEOUT]
 
 optional arguments:
   -h, --help            show this help message and exit
@@ -33,5 +33,5 @@ optional arguments:
 Usage example: Search Shodan for "Hikvision Cameras" using your API key.
 ./i0t-pr0be.py -s "DNVRS-Webs" -a abcdefghijklmnopqrstuvwxyz123456  
 Search & save results of the first three pages with default as 100 results per page.  
-``./i0t-pr0be.py -s -a <api-key> -p 3``
+./i0t-pr0be.py -s -a <api-key> -p 3 ```
 
