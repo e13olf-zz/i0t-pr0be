@@ -11,12 +11,14 @@ More information about development and the libraries used: https://www.e13olf.me
 
 # Installation
 Download WebDriver from https://github.com/mozilla/geckodriver/releases depending on Linux architecture then extract the file to the /usr/bin/ directory.  
-``git clone https://github.com/e13olf/i0t-pr0be.git``  
+``git clone https://github.com/e13olf/i0t-pr0be.git``
+
 ``pip3 install -r requirements.txt``  
 
 # Usage Examples  
 ```
-usage: i0t-pr0be.py [-h] [-a APIKEY] [-p PAGES] [-l] [-s SHODANSEARCH] [-v] [-t TIMEOUT]  
+Usage: i0t-pr0be.py [-h] [-a APIKEY] [-p PAGES] [-l] [-s SHODANSEARCH] [-v] [-t TIMEOUT] 
+
 optional arguments:
   -h, --help            show this help message and exit
   -a APIKEY, --apikey APIKEY
