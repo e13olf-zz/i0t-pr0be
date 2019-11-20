@@ -17,10 +17,10 @@ Download WebDriver from https://github.com/mozilla/geckodriver/releases dependin
 # Usage Examples
 ``usage: i0t-pr0be.py [-h] [-a APIKEY] [-p PAGES] [-l] [-s SHODANSEARCH] [-v] [-t TIMEOUT]``
 
-``optional arguments:``
- `` -h, --help            show this help message and exit``
-``  -a APIKEY, --apikey APIKEY``
-                        ``Your api key.``
+``optional arguments:``  
+ `` -h, --help            show this help message and exit``  
+ ``  -a APIKEY, --apikey APIKEY  
+                        Your api key.``
 ``  -p PAGES, --pages PAGES
                         Number of pages deep to go into Shodan page_results with 100 results per page; default is 1.``
   ``-l, --list            List the number of IoT device types tested by the script.``
