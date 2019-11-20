@@ -17,7 +17,7 @@ Download WebDriver from https://github.com/mozilla/geckodriver/releases dependin
 # Usage Examples  
 ``usage: i0t-pr0be.py [-h] [-a APIKEY] [-p PAGES] [-l] [-s SHODANSEARCH] [-v] [-t TIMEOUT]``  
 
-optional arguments:
+ ``optional arguments:
   -h, --help            show this help message and exit
   -a APIKEY, --apikey APIKEY
                         Your api key.
@@ -29,7 +29,7 @@ optional arguments:
   -v, --verbose         Output verbose statements.
   -t TIMEOUT, --timeout TIMEOUT
                         Set timeout value for each request; default is 13 ``  
-Usage example: Search Shodan for "Hikvision Cameras" using your API key.
+                        Usage example: Search Shodan for "Hikvision Cameras" using your API key.
 ``./i0t-pr0be.py -s "DNVRS-Webs" -a abcdefghijklmnopqrstuvwxyz123456``  
 Search & save results of the first three pages with default as 100 results per page.  
 ``./i0t-pr0be.py -s -a <api-key> -p 3``
