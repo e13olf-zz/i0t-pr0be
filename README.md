@@ -15,7 +15,7 @@ Download WebDriver from https://github.com/mozilla/geckodriver/releases dependin
 ``pip3 install -r requirements.txt``  
 
 # Usage Examples
-``usage: i0t-pr0be.py [-h] [-a APIKEY] [-p PAGES] [-l] [-s SHODANSEARCH] [-v] [-t TIMEOUT]
+``usage: i0t-pr0be.py [-h] [-a APIKEY] [-p PAGES] [-l] [-s SHODANSEARCH] [-v] [-t TIMEOUT]``
 
 optional arguments:
   -h, --help            show this help message and exit
