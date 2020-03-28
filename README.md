@@ -5,7 +5,7 @@ More information about development and the libraries used: https://www.e13olf.me
 
 # Requirements
 1. Python 3
-2. Selenium Python Libary
+2. Selenium Python Library
 3. Shodan Library
 4. Linux (Tested on Arch & Kali Linux)
 
